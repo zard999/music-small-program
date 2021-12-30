@@ -1,0 +1,2 @@
+<!--pages/logs/index.wxml-->
+<button bindtap="toIndex">跳转到首页</button>

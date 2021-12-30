@@ -1,0 +1,6 @@
+<view class="indexContainer">
+  <image class="avatar" src="{{userInfo.nickName ? userInfo.avatarUrl : '../../static/images/1.jfif'}}"></image>
+  <text class="nickName">{{userInfo.nickName ? userInfo.nickName : '哈哈哈'}}</text>
+  <button  wx:if="{{!userInfo.nickName}}" type="primary" size="mini" bindtap="getUserInfo">授权获取用户信息</button>
+  <text class="mainText" >欢迎来到小程序</text>
+</view>

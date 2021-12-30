@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="indexContainer">
+  <image class="avatar" src="{{userInfo.nickName ? userInfo.avatarUrl : '../../static/images/avatar.jfif'}}"></image>
+  <text class="avatarName">{{userInfo.nickName ? userInfo.nickName : '这是我的大名'}}</text>
+  <button wx:if="{{!userInfo.nickName}}" type="primary" size="mini" bindtap="getUserInfo">获取权限用户信息</button>
+  <text>欢迎来到我的小程序</text>
+</view>
