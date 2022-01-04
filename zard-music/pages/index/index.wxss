@@ -43,26 +43,6 @@
   padding: 20rpx;
 }
 
-.header .title {
-  color: #aaa;
-  line-height: 80rpx;
-}
-
-.header .headerText {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header .headerText .textRight {
-  width: 130rpx;
-  height: 60rpx;
-  font-size: 28rpx;
-  text-align: center;
-  line-height: 60rpx;
-  border: 1rpx solid #aaa;
-  border-radius: 30rpx;
-}
-
 .indexContainer .recommend .scroll {
   display: flex;
   height: 300rpx;
