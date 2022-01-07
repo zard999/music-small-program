@@ -14,7 +14,15 @@
   </scroll-view>
 
   <!-- video -->
-  <scroll-view bindscrolltolower="handleScrolltolower" bindrefresherrefresh="handleResherrefresh" refresher-enabled refresher-triggered="{{flag}}" scroll-y enable-flex class="videoScroll">
+  <scroll-view 
+    bindscrolltolower="handleScrolltolower" 
+    bindrefresherrefresh="handleResherrefresh" 
+    refresher-enabled 
+    refresher-triggered="{{flag}}" 
+    scroll-y 
+    enable-flex 
+    class="videoScroll"
+  >
     <view class="videoItem" wx:for="{{videoList}}" wx:key="vid">
       <video 
         wx:if="{{item.vid === vid}}" 

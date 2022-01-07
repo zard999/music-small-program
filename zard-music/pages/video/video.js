@@ -70,7 +70,7 @@ Page({
       this.isPlay = true
     } else {
       // 代表非第一次
-      // 判断点的是不是同一个视频
+      // 判断点的vi是不是同一个视频
       if (this.vid === this.data.vid) {
         // 点的是同一个
         if (this.isPlay) {
@@ -87,7 +87,7 @@ Page({
 
         // 需要看看播放记录数组中是否存在当前歌曲的播放记录
         // 如果存在，需要把时间跳转到记录的位置，要写在play上面
-        let obj = this.data.recordList.find(item => item.vid === this.data.vie)
+        let obj = this.data.recordList.find(item => item.vid === this.data.vid)
         obj && this.player.seek(obj.currentTime)
 
         this.player.play()

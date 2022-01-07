@@ -1,12 +1,12 @@
 {
   "pages": [
+    "pages/recommend/recommend",
+    "pages/detail/detail",
+    "pages/video/video",
     "pages/index/index",
     "pages/logs/logs",
     "pages/center/center",
-    "pages/login/login",
-    "pages/video/video",
-    "pages/detail/detail",
-    "pages/recommend/recommend"
+    "pages/login/login"
   ],
   "window": {
     "navigationBarBackgroundColor": "#d43c33",
@@ -35,5 +35,9 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap97.json"
+  "sitemapLocation": "sitemap97.json",
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ]
 }
