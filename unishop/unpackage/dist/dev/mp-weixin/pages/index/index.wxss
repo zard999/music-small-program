@@ -1,0 +1,96 @@
+.indexContainer {
+  height: 100%;
+}
+.indexContainer .header {
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+}
+.indexContainer .header .logo {
+  width: 120rpx;
+  height: 40rpx;
+  margin: 0 20rpx;
+}
+.indexContainer .header .search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 60rpx;
+  box-sizing: border-box;
+  border: 2rpx solid #aaa;
+}
+.indexContainer .header .search .iconfont {
+  text-align: center;
+  padding: 0 10rpx;
+}
+.indexContainer .header .search .searchInput {
+  font-size: 28rpx;
+}
+.indexContainer .header .btn {
+  width: 140rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 60rpx;
+  padding: 0 10rpx;
+  margin: 0 10rpx;
+}
+.indexContainer .navScroll {
+  display: flex;
+  height: 80rpx;
+}
+.indexContainer .navScroll .navItem {
+  flex-shrink: 0;
+  width: 140rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 80rpx;
+  box-sizing: border-box;
+}
+.indexContainer .navScroll .navItem.active {
+  border-bottom: 2rpx solid #dd524d;
+}
+.indexContainer .mainScroll {
+  height: calc(100vh - 160rpx);
+}
+.indexContainer .mainScroll .mainSwiper image {
+  width: 100%;
+  height: 300rpx;
+}
+.indexContainer .mainScroll .inconList {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+.indexContainer .mainScroll .inconList .iconItem {
+  display: flex;
+  align-items: center;
+}
+.indexContainer .mainScroll .inconList .iconItem .iconImg {
+  width: 32rpx;
+  height: 32rpx;
+}
+.indexContainer .mainScroll .inconList .iconItem .iconText {
+  font-size: 28rpx;
+}
+.indexContainer .mainScroll .categoryList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.indexContainer .mainScroll .categoryList .category {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.indexContainer .mainScroll .categoryList .category .categoryImg {
+  width: 110rpx;
+  height: 110rpx;
+  margin: 20rpx 0;
+}
+.indexContainer .mainScroll .categoryList .category .categoryText {
+  font-size: 28rpx;
+}
+

@@ -1,0 +1,67 @@
+.categoryContainer {
+  height: 100%;
+}
+.categoryContainer .header {
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1rpx solid #ff69b4;
+  box-sizing: border-box;
+}
+.categoryContainer .header .search {
+  width: 90%;
+  height: 60rpx;
+  background-color: #aaa;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+.categoryContainer .main {
+  display: flex;
+}
+.categoryContainer .main .left {
+  width: 150rpx;
+}
+.categoryContainer .main .left .item {
+  width: 150rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}
+.categoryContainer .main .left .item.active {
+  background-color: #007aff;
+  border-bottom: 1rpx solid #ff69b4;
+}
+.categoryContainer .main .right {
+  flex: 1;
+  border-left: 1rpx solid #ff69b4;
+  box-sizing: border-box;
+}
+.categoryContainer .main .right .rightScroll {
+  height: calc(100vh - 80rpx);
+}
+.categoryContainer .main .right .rightScroll .titleImg {
+  display: block;
+  width: 520rpx;
+  height: 190rpx;
+  margin: 20rpx auto;
+}
+.categoryContainer .main .right .rightScroll .subCateList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.categoryContainer .main .right .rightScroll .subCateList .subCate {
+  width: 33.3333%;
+  text-align: center;
+}
+.categoryContainer .main .right .rightScroll .subCateList .subCate .subCateImg {
+  width: 100%;
+  height: 144rpx;
+}
+.categoryContainer .main .right .rightScroll .subCateList .subCate .subCateName {
+  font-size: 28rpx;
+  line-height: 50rpx;
+}
+

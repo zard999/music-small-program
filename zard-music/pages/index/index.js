@@ -68,6 +68,13 @@ Page({
     }
   },
 
+  // 去每日推荐
+  toRecommend(){
+    wx.navigateTo({
+      url: '/package/pages/recommend/recommend',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

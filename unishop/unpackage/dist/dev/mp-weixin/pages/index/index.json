@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "floor": "/pages/index/components/Floor/index",
+    "card": "/pages/index/components/Card/index"
+  }
+}

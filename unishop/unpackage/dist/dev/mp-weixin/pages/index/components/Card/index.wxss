@@ -1,0 +1,25 @@
+.card .cardSwiper .swiperImg {
+  width: 100%;
+  height: 300rpx;
+}
+.card .cardTitle {
+  text-align: center;
+}
+.card .goodsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card .goodsList::after {
+  display: block;
+  content: '';
+  width: 344rpx;
+}
+.card .goodsList .goodsItem .goodsImg {
+  width: 344rpx;
+  height: 344rpx;
+}
+.card .goodsList .goodsItem .goodsName {
+  width: 344rpx;
+}
+

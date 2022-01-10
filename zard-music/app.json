@@ -1,10 +1,7 @@
 {
   "pages": [
-    "pages/recommend/recommend",
-    "pages/detail/detail",
-    "pages/video/video",
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/video/video",
     "pages/center/center",
     "pages/login/login"
   ],
@@ -35,9 +32,25 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap97.json",
   "requiredBackgroundModes": [
     "audio",
     "location"
-  ]
+  ],
+  "subpackages": [
+    {
+      "root": "package",
+      "name": "zyh",
+      "pages": [
+        "pages/detail/detail",
+        "pages/recommend/recommend"
+      ],
+      "independent": true
+    }
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": ["zyh"]
+    }
+  }
 }
